@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cd71e212f099b114dba4a92276386442
+timeCreated: 1522867880
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Tester: {instanceID: 0}
+  - canvas: {instanceID: 0}
+  - forceVectorPrefab: {fileID: 1934164921230302, guid: a79e20dd70b7891478241a09ecb512ce,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

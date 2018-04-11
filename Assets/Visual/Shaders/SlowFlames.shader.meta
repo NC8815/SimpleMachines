@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 05f25fab9c0050c488f6bfeda9e927a4
+timeCreated: 1522868211
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _BlendMap: {fileID: 2800000, guid: 33e58a2199badbf41bb46f7b104d88f7, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

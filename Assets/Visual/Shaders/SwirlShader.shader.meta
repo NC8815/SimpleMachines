@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6d761bfddd056dc47900512ef9b9b5cd
+timeCreated: 1519680511
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _Swirl: {fileID: 2800000, guid: 7d7e548c11159864e9d58ae4f17c6d63, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

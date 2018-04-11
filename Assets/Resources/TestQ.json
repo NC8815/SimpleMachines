@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "quests": [
+    {
+      "name": "LevelLoadFade",
+      "type": "Transition",
+      "steps": [
+        {
+          "from": {
+            "event": "OnLevelLoad",
+          },
+          "to": {
+            "event": "FadeToBlack",
+            "data": 0.5
+          }
+        },
+        {
+		  "from": {"event":"FadeComplete"},
+          "to": {"event": "LoadLevel"}
+        },
+        {
+          "to": {
+            "event": "FadeFromBlack",
+			"data": 0.5
+          }
+        },
+        {
+		  "from": {"event":"FadeComplete"},
+          "to": {"event": "LevelLoadComplete"}
+        }
+      ]
+    },
+	{
+      "name": "TestMessage",
+      "type": "Transition",
+      "steps": [
+        {
+          "from": {
+            "event": "BeginTutorial",
+            "data": "Level_001"
+          },
+          "to": {
+            "event": "TutorialMessage",
+			"data": {
+			  "prefabName": "TestNote",
+			  "duration": -1,
+			  "title": "Testing!",
+			  "message": "Here's where the first tutorial goes!"
+			}
+          }
+        }
+      ]
+    }
+  ]
+}

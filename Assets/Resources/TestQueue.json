@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "quests": [
+    {
+	  "name":"LevelLoadFade",
+	  "type":"Transition",
+      "steps": [
+        {
+          "from": "OnLevelLoad",
+          "to": "FadeOut",
+          "data": 0.5
+        },
+        {
+          "from": "FadeComplete",
+		  "to":"LoadLevel",
+		  "skippable": false
+        },
+        {
+          "from": "LoadLevelComplete",
+		  "to":"FadeIn",
+          "data": 0.5
+        }
+      ]
+    }
+  ]
+}

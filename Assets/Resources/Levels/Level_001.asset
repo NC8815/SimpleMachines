@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a781a7830e67c03498973df2f05094b2, type: 3}
+  m_Name: Level_001
+  m_EditorClassIdentifier: 
+  sceneObjects:
+  - PrefabFileName: ball
+    transform:
+      xp: 0
+      yp: -1.4100001
+      zp: 0
+      xr: -0
+      yr: 0
+      zr: 0
+      xs: 1
+      ys: 1
+      zs: 1
+    size:
+      x: 0
+      y: 0
+    active: 1
+    linkIndex: 1
+  - PrefabFileName: dragZone
+    transform:
+      xp: 0.03
+      yp: -1.59
+      zp: 0
+      xr: -0
+      yr: 0
+      zr: 0
+      xs: 1
+      ys: 1
+      zs: 1
+    size:
+      x: 1
+      y: 1
+    active: 1
+    linkIndex: -1
+  - PrefabFileName: goal
+    transform:
+      xp: 0.01
+      yp: 1.43
+      zp: 0
+      xr: -0
+      yr: 0
+      zr: 0
+      xs: 1
+      ys: 1
+      zs: 0
+    size:
+      x: 1
+      y: 1
+    active: 1
+    linkIndex: -1
